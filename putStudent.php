@@ -17,8 +17,8 @@
 		);
 	}else{
 		$arr = array(
-			'success' => true,
-			'result' => "Save is successful"
+			'success' => false,
+			'result' => "Save is unsuccessful"
 		);
 	}
 	echo json_encode($arr);
